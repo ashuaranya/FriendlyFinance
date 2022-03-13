@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Friendly Finance</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container-fluid container-finance">
+		  <div class="row header-section">
+			<div class="col-md-3">
+				<div class="section-logo">
+					<a href="home.html"><img src="images/logo.png"/></a>
+				</div>
+			</div>
+			
+			<div class="col-md-9">
+				<nav class="navbar navbar-expand-lg menu-finance">
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					  <div class="navbar-nav">
+						<div class="menu-dropdown">
+							<a class="nav-link active" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Kostenlose Beratung</span> <img class="icon-down-arrow" src="images/nav-arrow-down.png"/></a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="baufinanzierung.html">Baufinanzierung</a></li>
+								<li><a class="dropdown-item" href="anschlussfinanzierung.html">Anschlussfinanzierung</a></li>
+								<li><a class="dropdown-item" href="modernisierung.html">Modernisierung</a></li>
+								<li><a class="dropdown-item" href="projektfinanzierung.html">Projektfinanzierung</a></li>
+								<li><a class="dropdown-item" href="36hzusage.html">36h Zusage</a></li>
+							</ul>
+						</div>
+						<a class="nav-link" href="terminvereinbarung.html">Terminvereinbarung</a>
+						<a class="nav-link" href="uber-uns.html">Über uns</a>
+						<a class="nav-link" href="kontakt.html">Kontakt</a>
+						<a class="nav-link" href="36hzusage.html">36h Zusage</a>
+						<a class="nav-link btn-login" href="https://friendly-finance.finlink.de/friendly-finance/widgets/login?size=small" target="_blank"><img src="images/btn-login.png"/><span class="login-txt">Log In</span></a>
+					  </div>
+					</div>
+				</nav>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="container-fluid container-page-content">
+			<div class="row content-impress">
+				<div class="col-md-12">
+					<h2>Impressum</h2>
+					<p>Friendly Finance GmbH</p>
+					<p>Insterburger Str. 5</p>
+					<p>28207 Bremen</p><br/>
+					<p>Handelsregister: HRB 37464</p>
+					<p>Registergericht: Amtsgericht Bremen</p><br/>
+					
+					<h3>Geschäftsführer:</h3>
+					<p>André Tiedemann</p>
+					<p>Manfred Meißner</p><br/>
+					
+					<h3>Kontakt</h3>
+					<p>Telefon: <a href="tel:+49 421 61072560">+49 421 61072560</a></p>
+					<p>E-Mail: <a href="mailto:info@friendly-finance.de">info@friendly-finance.de</a></p><br/>
+
+					<strong>Umsatzsteuer-ID</strong>
+					<p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE349372857</p><br/>
+					
+					<h3>Gewerbeerlaubnis</h3>
+					<p>Für die Tätigkeit als Immobiliardarlehensvermittler gemäß § 34i Abs. 1 S. 1 GewO und die Tätigkeit als Vermittler von Darlehen gemäß § 34c Abs. 1 Nr. 2 GewO vorhanden.</p><br/>
+					<strong>Immobiliardarlehensvermittlerregister:</strong>
+					<p>Einsehbar unter <a href="www.vermittlerregister.info" target="_blank">www.vermittlerregister.info</a>; Register Nr.: D-W-112-12GR-19</p><br/>
+					
+					<h3>Aufsichtsbehörde nach §34c GewO (Darlehensvermittler):</h3>
+					<p>Senatorin für Wirtschaft, Arbeit und Europa</p>
+					<p>Abteilung 5: Gewerbe- und Marktangelegenheiten</p>
+					<p>Katharinenklosterhof 3</p>
+					<p>28195 Bremen</p><br/>
+					
+					<h3>Aufsichtsbehörde nach §34i GewO (Immobiliardarlehensvermittler):</h3>
+					<p>Industrie- und Handelskammer Bremen</p>
+					<p>Am Markt 13</p>
+					<p>28195 Bremen</p>
+					<p><a href="https://webgate.ec.europa.eu/odr" target="_blank">www.handelskammer-bremen.de</a></p><br/>
+					
+					<h3>Schlichtungsstelle</h3>
+					<p>Schlichtungsstelle bei der Deutschen Bundesbank</p>
+					<p>Postfach 11 12 32</p>
+					<p>Telefon: <a href="tel:+49 69 23 88 – 19 07">+49 69 23 88 – 19 07</a></p>
+					<p>Fax: <a href="fax:+49 69 23 88 – 19 19">+49 69 23 88 – 19 19</a></p><br/>
+					
+					<h3>Online-Streitbeilegung</h3>
+					<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Die Plattform finden Sie unter <a href="https://webgate.ec.europa.eu/odr" target="_blank">https://webgate.ec.europa.eu/odr</a>.</p>
+					<p>Allgemeine Informationspflichten nach § 36 VSBG</p>
+					<p>Unser Unternehmen ist grundsätzlich nicht bereit und verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p><br/>
+					
+					<h3>Berufsrechtliche Regelungen:</h3>
+					<ul>
+						<li>Gewerbeordnung</li>
+						<li>Immobiliardarlehensvermittlungsverordnung</li>
+					</ul>
+					<p>Die berufsrechtlichen Regelungen können über die vom Bundesministerium der Justiz und der juris GmbH betriebenen Homepage <a href="www.gesetze-im-internet.de" target="_blank">www.gesetze-im-internet.de</a> eingesehen und abgerufen werden.</p><br/>
+					
+					<h3>Gemeinsame Registerstelle:</h3>
+					<p>Deutscher Industrie- und Handelskammertag (DIHK) e. V., Breite Straße 29, 10178 Berlin
+					Telefon: 0-180-500 585-0 (14 Cent/Min aus dem dt. Festnetz, höchstens 42 Cent/Min aus Mobilfunknetzen)
+					Registerabruf unter <a href="www.handelskammer-bremen.de" target="_blank">www.handelskammer-bremen.de</a></p><br/>
+					
+					<h3>Haftung für Inhalte</h3>
+					<p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+					<p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p><br/>
+					
+					<h3>Haftung für Links</h3>
+					<p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
+					<p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p><br/>
+					
+					<h3>Urheberrecht</h3>
+					<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
+					<p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+				</div>
+			</div>
+		</div>
+				
+		<div class="container-fluid container-footer">
+		  <footer class="row footer-section">
+			<div class="col-md-3 footer-menu">
+				<ul class="menu-group">
+					<li><a class="footer-link" href="terminvereinbarung.html">Terminvereinbarung</a></li>
+					<li><a class="footer-link" href="uber-uns.html">Über uns</a></li>
+					<li><a class="footer-link" href="kontakt.html">Kontakt</a></li>
+					<li class="txt-login"><strong><a class="footer-link" href="https://friendly-finance.finlink.de/friendly-finance/widgets/login?size=small" target="_blank">Log In</a></strong></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-menu">
+				<ul class="menu-group">
+					<li><a class="footer-link" href="javascript:void(0);"><strong>Kostenlose Beratung</strong></a></li>
+					<li><a class="footer-link" href="baufinanzierung.html">Baufinanzierung</a></li>
+					<li><a class="footer-link" href="anschlussfinanzierung.html">Anschlussfinanzierung</a></li>
+					<li><a class="footer-link" href="modernisierung.html">Modernisierung</a></li>
+					<li><a class="footer-link" href="projektfinanzierung.html">Projektfinanzierung</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-menu">
+				<ul class="menu-group">
+					<li><a class="footer-link" href="javascript:void(0);"><strong>Rechtliches</strong></a></li>
+					<li><a class="footer-link" href="datenschutz.html">Datenschutz</a></li>
+					<li><a class="footer-link" href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-menu footer-social-menu">
+				<ul class="menu-group">
+					<li><a class="footer-link" href="javascript:void(0);"><strong>Social Media</strong></a></li>
+					<li class="footer-social-item">
+						<a href="https://www.linkedin.com/company/friendly-finance-gmbh" target="_blank"><span class="social-icon"><img src="images/icon-linked-in.png"/>LinkedIn</span></a>
+						<span class="icon-social icon-email"><a href = "mailto: kontakt@friendly-finance.de"><img src="images/icon-email.png"/></a></span>
+					</li>
+					<li class="footer-social-item">
+						<a href="https://www.instagram.com/friendly.finance.gmbh/" target="_blank"><span class="social-icon"><img src="images/icon-insta.png"/>Instagram</span></a>
+						<span class="icon-social icon-phone"><a href="tel:+49(0)421 61072568"><img src="images/icon-phone.png"/></a></span>
+					</li>
+					<li><a></a></li>
+				</ul>
+			</div>
+		  </footer>
+		</div>
+		
+		<script src ="jquery/jquery-3.6.0.min.js"></script>
+		<script src ="jquery/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
