@@ -163,11 +163,11 @@
 				<ul class="menu-group">
 					<li><a class="footer-link" href="javascript:void(0);"><strong>Social Media</strong></a></li>
 					<li class="footer-social-item">
-						<a><span class="social-icon"><img src="images/icon-linked-in.png"/>LinkedIn</span></a>
+						<a href="https://www.linkedin.com/company/friendly-finance-gmbh" target="_blank"><span class="social-icon"><img src="images/icon-linked-in.png"/>LinkedIn</span></a>
 						<span class="icon-social icon-email"><a href = "mailto: kontakt@friendly-finance.de"><img src="images/icon-email.png"/></a></span>
 					</li>
 					<li class="footer-social-item">
-						<a><span class="social-icon"><img src="images/icon-insta.png"/>Instagram</span></a>
+						<a href="https://www.instagram.com/friendly.finance.gmbh/" target="_blank"><span class="social-icon"><img src="images/icon-insta.png"/>Instagram</span></a>
 						<span class="icon-social icon-phone"><a href="tel:+49(0)421 61072568"><img src="images/icon-phone.png"/></a></span>
 					</li>
 					<li><a></a></li>

@@ -1,0 +1,7 @@
+@import "style.css"; 
+
+@media(min-width: 768px) and (max-width: 1279px) {
+	.home-footer-address {
+		display: block;
+	}
+}
