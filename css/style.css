@@ -457,7 +457,8 @@ button.add-info a {
     margin: 0 auto;
 	min-height: 50px;
 }
-.home-footer-address {
+.home-footer-address,
+.unser-team-mobile {
 	display: none;
 }
 
@@ -1242,10 +1243,10 @@ button.btn-kontakt {
 	button.add-info {
 		background: url(../images/btn-add-info.png) no-repeat;
 		background-size: 100% 100%;
-		font-weight: bold;
+		font-weight: 600;
 		color: #fff;
 		padding: 5px 5px 12px;
-		width: 69%;
+		width: 80%;
 		margin-top: 0;
 	}
 	button.add-info a {
@@ -1265,6 +1266,8 @@ button.btn-kontakt {
 	.section-home-card {
 		margin-bottom: 4em;
 	}
+	.unser-team-mobile {display: block;}
+	.unser-team-desktop {display: none;}
 	.unser-team h2 {
 		font-size: 36px;
 		line-height: 54px;
@@ -1276,7 +1279,7 @@ button.btn-kontakt {
 		height: auto;
 		width: 202px;
 		position: relative;
-		left: 8px;
+		left: 0;
 	}
 	.unser-card h5.card-title {
 		font-size: 18px;
@@ -1286,13 +1289,61 @@ button.btn-kontakt {
 	.unser-card p.card-text {
 		min-height: auto;
 		font-size: 14px;
-		line-height: 30px;
+		line-height: 21px;
+		margin-bottom: 10px
+	}
+	.unser-team .carousel-indicators [data-bs-target] {
+		width: 8px;
+		height: 8px;
+		background-color: #fff;
+		border: 1px solid #018343;
+		box-sizing: border-box;
+		border-radius: 0px 4px 4px 4px;
+	}
+	.unser-team .card-body {
+		padding: 1rem 10px;
+	}
+	.unser-team .carousel-indicators .active {
+		background-color: #018343 !important;
+	}
+	.unser-card img {
+		position: relative;
+		top: 10px;
+		left: -10px;
 	}
 	.team-btn {
 		font-size: 14px;
 		line-height: 21px;
 		padding: 12px;
 		width: 95%;
+	}
+	.unser-team-mobile h2 {
+		color: #4A4A4A;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 54px;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.unser-team {
+		left: 10px;
+		margin: 0 auto 5em;
+	}
+	.unser-team-mobile .carousel-indicators [data-bs-target] {
+		width: 8px;
+		height: 8px;
+		margin-right: 8px;
+		margin-left: 8px;
+		background-color: #fff;
+		border: 1px solid #018343;
+		box-sizing: border-box;
+		border-radius: 0px 4px 4px 4px;
+	}
+	.unser-team-mobile .carousel-indicators .active {
+		background-color: #018343;
+	}
+	.carousel-indicators {
+		bottom: -60px;
 	}
 	.home-footer-address .hzusage-footer {
 		width: 100%;

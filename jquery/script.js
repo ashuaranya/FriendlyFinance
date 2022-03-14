@@ -8,5 +8,7 @@ jQuery(document).ready(function() {
             return false; // once you find one that matches, stop looking!
         }
     });
-	jQuery('.termin-button').insertAfter( ".baufina-list-content" );
+	if(jQuery(window).width() < 768) {
+		jQuery('.termin-button').insertAfter( ".baufina-list-content" );
+	}
 });
