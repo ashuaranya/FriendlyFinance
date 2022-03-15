@@ -133,7 +133,7 @@
 	}
 	.inner-address-block {
 		min-height: 308px;
-		padding: 4em 2em 2em 8em;
+		padding: 4em 3em 2em 8em;
 	}
 	.inner-address-block > img {
 		width: 45px;
@@ -724,7 +724,7 @@
 		min-height: 164px;
 		width: 100%;
 		margin-right: unset;
-		padding: 30px 10px 38px 3.5em;
+		padding: 30px 3em 38px 4em;
 		height: 100%;
 		position: relative;
 		right: -16px;
@@ -735,7 +735,7 @@
 		font-weight: 600;
 		color: #fff;
 		padding: 5px 5px 12px;
-		width: 80%;
+		width: 148px;
 		margin-top: 0;
 	}
 	button.add-info a {
@@ -1230,5 +1230,17 @@
 	.modern-content-full {
 		padding: 2em 1em 2em 3em;
 		left: 12px;
+	}
+}
+@media screen and (max-width: 319px) {
+	.content-add {
+		width: 80%;
+		margin-top: -5px;
+	}
+	.inner-address-block {
+		padding: 30px 10px 38px 2.5em;
+	}
+	.home-footer-address .hzusage-footer {
+		padding: 20px 10px;
 	}
 }

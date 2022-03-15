@@ -114,6 +114,7 @@ button.navbar-toggle {
 }
 .footer-section ul {
 	list-style: none;
+	padding-left: 0;
 }
 .footer-section a.footer-link {
 	font-family: 'Poppins', sans-serif;
