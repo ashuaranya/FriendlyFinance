@@ -345,6 +345,10 @@
 	.page-acc-content p {
 		margin-bottom: 25px;
 	}
+	.page-acc-content .page-content p.txt-large {
+		font-size: 18px;
+		line-height: 27px;
+	}
 	.projekt-content-full .summary-shadow img,
 	.modern-content-full .summary-shadow img {
 		width: 138px;
@@ -876,14 +880,29 @@
 		height: 30px;
 		margin-left: 20px;
 	}
+	.footer-menu {
+		margin-bottom: 15px;
+	}
 	/**Inner Pages**/
 	.photo-family {
 		display: none;
 	}
 	.container-page-content h2.page-title {
-		font-size: 18px;
-		line-height: 27px;
+		font-size: 17px;
+		line-height: 30px;
 		margin-bottom: 15px;
+	}
+	.hzusage-address {
+		margin-top: 15px;
+	}
+	.hzusage-content-full {
+		width: 92%;
+	}
+	.hzusage-footer {
+		width: 92%;
+		margin: 1em auto 2em;
+		font-size: 9px;
+		line-height: 13.5px;
 	}
 	.page-content p, 
 	.page-content li {
@@ -923,11 +942,12 @@
 	ul.baufina-list {
 		padding: 2.5em 0 2em 3em;
 	}
-	ul.baufina-list li:before, 
-	ul.ansch-list li:before {
+	.page-content ul.baufina-list li:before, 
+	.page-content ul.ansch-list li:before {
 		width: 15px;
 		height: 15px;
 		margin-right: 1.5em;
+		background-size: 100% 100%;
 	}
 	.page-accordian h2 {
 		font-size: 24px;
@@ -947,10 +967,107 @@
 		height: 10px;
 		left: 7px;
 	}
+	.accordian-btn {
+		margin: 0 15px;
+	}
+	.termin-content, 
+	.kontakt-content, 
+	.uber-content {
+		width: 92%;
+		margin: 1em auto 2em;
+	}
+	.termin-content p, 
+	.kontakt-content p, 
+	.uber-content p {
+		width: 100%;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.termin-content h2, 
+	.kontakt-content h2, 
+	.uber-content h2 {
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+	.block-quotes:before, 
+	.block-quotes:after {
+		background-size: 100% 100%;
+		width: 50px;
+		height: 50px;
+	}
+	.termin-content-full .block-quotes:after,
+	.kontakt-content-full .block-quotes:after,
+	.uber-content-full .block-quotes:after {
+		right: -3px;
+		top: -15px;
+	}
+	.termin-content-full .block-quotes:before,
+	.kontakt-content-full .block-quotes:before,
+	.uber-content-full .block-quotes:before {
+		left: -6px;
+		top: 2.5em;
+	}
+	.kontakt-content {
+		margin: 1em auto;
+	}
+	.kontakt-form {
+		width: 92%;
+		margin: 0 auto 4em;
+		padding: 3em 1.8em 1em;
+	}
+	.kontakt-form:before, .kontakt-form:after {
+		background-size: 100% 100%;
+	}
+	.kontakt-form:before {
+		top: 0px;
+		width: 126px;
+		height: 126px;
+	}
+	.kontakt-form:after {
+		width: 205px;
+		height: 205px;
+	}
+	.kontakt-form input.form-control {
+		height: 35px;
+	}
+	.kontakt-form .form-input {
+		margin-bottom: 1em !important;
+	}
+	.kontakt-form .form-textarea .form-control {
+		border-radius: 0px 18px 18px 18px;
+		height: 93px;
+	}
+	.form-note {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.kontakt-form label.form-check-label {
+		font-size: 6px;
+		line-height: 12px;
+	}
+	.kontakt-form .form-check-input {
+		height: 11px;
+		width: 11px;
+		margin-right: 10px;
+		border: 1px solid #CDCDCD;
+		margin-top: 2px;
+	}
+	.kontakt-form button.btn-senden {
+		font-size: 12px;
+		line-height: 52px;
+		width: 93%;
+		height: 50px;
+		margin-top: 1.5em;
+	}
 	.container-page-content button.accordion-button:before {
 		width: 26px;
 		height: 26px;
 		margin-right: 15px;
+	}
+	.kontakt-form .form-label {
+		font-size: 10px;
+		line-height: 12px;
 	}
 	.accordion-body li, 
 	.accordion-body h5 {
@@ -977,5 +1094,141 @@
 		width: 84%;
 		height: 50px;
 		margin: 25px 0 35px;
+	}
+	.termin-content-full .unser-team {
+		margin: 0 auto 2em;
+	}
+	.termin-content-full .unser-card p.card-text {
+		min-height: auto;
+	}
+	.termin-content-full .unser-team .unser-card {
+		margin-bottom: 3em;
+	}
+	.uber-details-full {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.uber-details-full > img {
+		margin: 0 auto;
+		width: 202px;
+		display: block;
+	}
+	.uber-details h3 {
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+		margin-bottom: 3px;
+	}
+	.uber-details h6 {
+		font-size: 15px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+	.sub-detail {
+		font-size: 11px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.uber-details .sub-detail:before {
+		background-size: 100% 100%;
+		margin-right: 10px;
+	}
+	.birth-date.sub-detail:before {
+		width: 16px;
+		height: 20px;
+		vertical-align: -5px;
+		margin: 0 15px 0 3px;
+	}
+	.education.sub-detail:before {
+		width: 24px;
+		height: 20px;
+		position: absolute;
+		top: 3px;
+	}
+	.people-no.sub-detail:before {
+		width: 24px;
+		height: 15px;
+	}
+	.occupation.sub-detail:before {
+		width: 18px;
+		height: 17px;
+		top: 4px;
+	}
+	.sub-detail span {
+		width: 100%;
+		display: inline-block;
+		padding-left: 35px;
+	}
+	.single-uber-content p {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	button.btn-uber, 
+	button.btn-kontakt {
+		font-size: 12px;
+		line-height: 30px;
+		height: 50px;
+		width: 79%;
+	}
+	button.btn-uber {
+		margin-right: 2em;
+		padding: 15px 2em 10px;
+		margin-bottom: 2em;
+	}
+	.kontakt-button {
+		padding-left: 0;
+		display: block;
+	}
+	.kontakt-button > img {
+		display: none;
+	}
+	button.btn-kontakt {
+		background: url(../images/btn-kontakt-mobile.png) no-repeat;
+		background-size: 100% 100%;
+		padding: 15px 3em;
+		color: #97E66F;
+	}
+	.single-uber-content {
+		margin: 0 auto 4em;
+	}
+	button.btn-ansch, 
+	button.btn-projekt,
+	button.btn-modern {
+		font-size: 12px;
+		line-height: 54px;
+		width: 200px;
+		height: 50px;
+		margin: 4em auto 2em;
+		display: block;
+	}
+	.projekt-content p {
+		margin-bottom: 20px;
+	}
+	.projekt-content-full,
+	.ansch-content-full {
+		padding: 3em 2em 1em 1.5em;
+	}
+	.projekt-content-full .summary-shadow img {
+		width: 138px;
+		height: 138px;
+	}
+	.projekt-content p.txt-large {
+		font-size: 11px;
+		line-height: 18px;
+	}
+	.page-acc-content {
+		width: 100%;
+	}
+	.ansch-content-full {
+		background: url(../images/ansch-bg.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	ul.ansch-list {
+		margin: 2em 0;
+	}
+	.modern-content-full {
+		padding: 2em 1em 2em 3em;
+		left: 12px;
 	}
 }
