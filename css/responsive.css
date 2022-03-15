@@ -197,9 +197,9 @@
 		padding: 20px 0;
 	}
 	.hzusage-footer p {
-		margin-bottom: 0;
-		font-size: 14px;
-		line-height: 21px;
+		margin-bottom: 2px;
+		font-size: 12px;
+		line-height: 18px;
 	}
 	.footer-section a.footer-link {
 		font-size: 12px;
@@ -291,6 +291,8 @@
 		line-height: 24px;
 	}
 	.page-summary {
+		background: url(../images/baufina-bg-tab.png) no-repeat;
+		background-size: 100% 100%;
 		padding: 4em 4em 4em 3.5em;
 	}
 	.summary-shadow img {
@@ -322,30 +324,55 @@
 		margin-top: 4em;
 		left: 18px;
 	}
-	.container-page-content .ansch-content-full h2 {
+	.container-page-content .page-acc-content h2 {
 		font-size: 24px;
 		line-height: 36px;
 		margin-bottom: 30px;
 	}
-	.ansch-content-full {
+	.page-acc-content {
 		width: 100%;
-		padding: 5em 3em 2em 3em;
+		padding: 3.5em 6em 2em 3em;
 	}
+	
 	ul.ansch-list {
 		margin: 1em 0;
 	}
-	.page-content.ansch-content p, 
-	.page-content.ansch-content li {
+	.page-acc-content .page-content p, 
+	.page-acc-content .page-content li {
 		font-size: 14px;
 		line-height: 26px;
 	}
+	.page-acc-content p {
+		margin-bottom: 25px;
+	}
+	.projekt-content-full .summary-shadow img,
+	.modern-content-full .summary-shadow img {
+		width: 138px;
+		height: 138px;
+	}
 	button.btn-ansch, 
-	button.btn-projekt {
+	button.btn-projekt,
+	button.btn-modern {
 		font-size: 20px;
 		line-height: 72px;
 		width: 288px;
 		height: 66px;
     }
+	button.btn-modern {
+		color: #fff;
+	}
+	.container-page-content .modern-content-full h2.page-title,
+	.container-page-content .modern-content-full p {
+		color: #4a4a4a;
+	}
+	.modern-content-full {
+		padding: 4em 6em 7em;
+		left: 12px;
+	}
+	.modern-content-full .page-content p {
+		margin-bottom: 3px;
+		line-height: 20px;
+	}
 	.ansch-accordian button.btn-acc {
 		margin-top: 2em;
 	}
@@ -864,6 +891,8 @@
 		line-height: 15px;
 	}
 	.page-summary {
+		background: url(../images/baufina-bg-tab.png) no-repeat;
+		background-size: 100% 100%;
 		padding: 3em 1.2em 3em 2em;
 	}
 	.summary-shadow img {
