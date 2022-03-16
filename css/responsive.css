@@ -8,7 +8,16 @@
 		position: absolute;
 	}
 	.section-logo img {
-		width: 75%;
+		width: 100%;
+	}
+	.container-finance {
+		padding: 15px 2.5em;
+	}
+	nav.menu-finance {
+		width: 85%;
+	}
+	.header-section a.btn-login {
+		width: 81px;
 	}
 	.menu-finance .collapse:not(.show) {
 		display: block;
@@ -16,11 +25,17 @@
 	.navbar-nav {
 		flex-direction: row;
 	}
+	.btn-login img {
+		top: -3px;
+	}
 	.header-section .menu-finance .nav-link,
-	.btn-login .login-txt,
 	.menu-dropdown ul.dropdown-menu li a{
 		font-size: 10px;
 		line-height: 15px;
+	}
+	.btn-login .login-txt{
+		font-size: 14px;
+		line-height: 21px;
 	}
 	.menu-dropdown ul.dropdown-menu {
 		padding: 0;
@@ -596,11 +611,11 @@
 		padding: 0 8px;
 	}
 	.header-section a.btn-login {
-		width: 43%;
+		width: 33%;
 		margin: 1px 5px 0 0;
 	}
 	.btn-login .login-txt {
-		line-height: 22px;
+		line-height: 21px;
 		font-size: 14px;
 	}
 	.col-menu {
