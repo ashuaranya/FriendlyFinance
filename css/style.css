@@ -64,23 +64,23 @@ nav.menu-finance {
 .nav-link img.icon-down-arrow {
     width: 10%;
 }
-.btn-login img {
-	width: 100%;
-	position: absolute;
-    left: 0;
-    top: -1px;
-}
 .btn-login .login-txt {
+    background: url(../images/btn-login.png) no-repeat;
+    background-size: 100% 100%;
     position: relative;
     color: #fff;
     display: block;
     text-align: center;
-    line-height: 34px;
+    line-height: 42px;
+    height: 42px;
+    width: 114px;
+    font-size: 18px;
 }
 .menu-dropdown ul.dropdown-menu {
     background: #97E670;
     border: none;
     border-radius: 0;
+	padding: 0;
 }
 .menu-dropdown ul.dropdown-menu li {
 	border-bottom: 0.5px solid #DEDEDE;
@@ -265,10 +265,11 @@ button.btn-36h {
 }
 .section-home .img-clover-mobile {display: none;}
 .section-overlay {
-    background: url(../images/slider-bg.png) no-repeat;
+    background: #F5F5F5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 430px 0px;
     height: 750px;
-    width: 82%;
-    background-size: 100% 100%;
+    width: 79.5%;
     position: absolute;
     top: 0;
     left: 0;
@@ -277,7 +278,7 @@ button.btn-36h {
 .img-home-card img {
     width: 100%;
     position: relative;
-    right: -48px;
+    right: -60px;
     top: 0;
     z-index: 1;
 }
@@ -296,15 +297,16 @@ button.btn-36h {
     position: relative;
 }
 .vector-bg {
-    width: 68%;
+    width: 60px;
+	height: 60px;
 }
 .card-vector {
     position: absolute;
-    top: 9px;
-    left: 9px;
+    top: 10px;
+    left: 12px;
     right: 0;
     z-index: 1;
-    width: 35%;
+    width: 34px;
     text-align: center;
 }
 .section-card-right {
@@ -500,10 +502,10 @@ button.add-info a {
 	z-index: 0;
 }
 .photo-family .img-family {
-    width: 80%;
-	margin-top: 5em;
-	position: relative;
-    left: 21.9%;
+    width: 87%;
+    margin-top: 5em;
+    position: relative;
+    left: 14.8%;
 }
 .baufina-list-content {
 	background: url(../images/baufina-list-bg.png) no-repeat;
@@ -858,8 +860,8 @@ button.btn-modern {
     height: 60px;
 }
 .kontakt-form .form-label {
-    font-size: 21px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 28px;
     text-align: center;
     color: #4A4A4A;
 }
@@ -923,7 +925,11 @@ button.btn-modern {
     flex-direction: row;
 	margin-bottom: 3em;
 }
+div#andre {
+    margin-bottom: 1em;
+}
 .uber-details-full > img {
+	height: 430px;
     margin-right: 4em;
 }
 .uber-details {
@@ -950,8 +956,8 @@ h6.sub-title {
 	position: relative;
 }
 .single-uber-content p {
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 34px;
 }
 button.btn-uber,
 button.btn-kontakt {
@@ -1022,7 +1028,11 @@ button.btn-kontakt {
     display: inline-block;
     padding-left: 55px;
 }
-
+.education.sub-detail span {
+	width: 90%;
+    display: inline-block;
+    padding-left: 0;
+}
 .content-impress {
     text-align: center;
     width: 80%;

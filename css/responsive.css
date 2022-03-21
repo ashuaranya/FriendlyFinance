@@ -10,6 +10,9 @@
 	.section-logo img {
 		width: 100%;
 	}
+	.header-section > div {
+		padding: 0 7px;
+	}
 	.container-finance {
 		padding: 15px 2.5em;
 	}
@@ -35,7 +38,9 @@
 	}
 	.btn-login .login-txt{
 		font-size: 14px;
-		line-height: 21px;
+		line-height: 28px;
+		height: 30px;
+		width: 81px;
 	}
 	.menu-dropdown ul.dropdown-menu {
 		padding: 0;
@@ -73,7 +78,7 @@
 	}
 	.section-overlay {
 		height: 392px;
-		width: 76%;
+		width: 70%;
 		background: #F5F5F5;
 		border-radius: 0px 0px 184px 0px;
 	}
@@ -83,8 +88,7 @@
 		width: 25.8%;
 	}
 	.img-home-card img {
-		width: 372px;
-		right: 0;
+		width: 100%;
 	}
 	.section-card {
 		padding-top: 11em;
@@ -103,7 +107,7 @@
 		height: 26px;
     }
 	.card-block {
-		right: 0;
+		right: -6.5em;
 	}
 	.home-card {
 		width: 225px;
@@ -451,8 +455,8 @@
 		padding: 4em 3em;
 	}
 	.kontakt-form .form-label {
-		font-size: 18px;
-		line-height: 40px;
+		font-size: 16px;
+		line-height: 36px;
 	}
 	.kontakt-form input.form-control {
 		height: 73px;
@@ -572,8 +576,8 @@
 	}
 	div#myNavbar {
 		position: absolute;
-		top: 30px;
-		right: 0;
+		top: 35px;
+		right: 8px;
 		width: 13em;
 		box-shadow: 0px 0px 1px #018343;
 	}
@@ -615,8 +619,12 @@
 		margin: 1px 5px 0 0;
 	}
 	.btn-login .login-txt {
-		line-height: 21px;
+		line-height: 22px;
 		font-size: 14px;
+		height: 24px;
+		width: 64px;
+		display: inline-block;
+		right: 10px;
 	}
 	.col-menu {
 		display: flex;
@@ -656,9 +664,10 @@
 	}
 	.img-clover-mobile {
 		position: relative;
-		left: 23%;
+		left: 100%;
 		top: -54px;
 		z-index: 0;
+		transform: translateX(-93%);
 	}
 	.txt-scroller::before,
 	.txt-scroller::after {background: none;}
@@ -678,12 +687,14 @@
 		z-index: 1;
 	}
 	.vector-bg {
-		width: 50%;
+		width: 30px;
+		height: 30px;
 	}
 	.card-vector {
-		top: 5px;
-		left: 5px;
-		width: 30%;
+		top: 6px;
+		left: 6px;
+		width: 17px;
+		height: 17px;
 	}
 	.home-card {
 		width: 100%;
@@ -739,7 +750,7 @@
 		min-height: 164px;
 		width: 100%;
 		margin-right: unset;
-		padding: 30px 3em 38px 4em;
+		padding: 30px 1em 38px 4em;
 		height: 100%;
 		position: relative;
 		right: -16px;
@@ -760,7 +771,7 @@
 		top: 6px;
 	}
 	.content-add {
-		width: 83%;
+		width: 82%;
 		margin-top: -5px;
 	}
 	.inner-address-block > img {
@@ -788,7 +799,7 @@
 	.unser-card h5.card-title {
 		font-size: 18px;
 		line-height: 50px;
-		margin: 15px 0 0;
+		margin: 10px 0 0;
 	}
 	.unser-card p.card-text {
 		min-height: 42px;
@@ -813,7 +824,9 @@
 	.unser-card img {
 		position: relative;
 		top: 10px;
-		left: -10px;
+		left: -12px;
+		height: 264px;
+		width: auto;
 	}
 	.team-btn {
 		font-size: 14px;
@@ -1126,6 +1139,7 @@
 	.uber-details-full > img {
 		margin: 0 auto;
 		width: 202px;
+		height: auto;
 		display: block;
 	}
 	.uber-details h3 {
