@@ -130,15 +130,15 @@ button.navbar-toggle {
 	margin: 15px 0 20px;
 }
 .footer-section span.social-icon {
-	background: url(../images/bg-social.png) no-repeat;
-    background-size: 100% 100%;
-    width: 74%;
+	width: 192px;
     height: 50px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     line-height: 48px;
     margin: 0 auto;
+    background: #018343;
+    border-radius: 5px 25px 25px 25px;
 }
 .footer-section span.social-icon img {
     width: 25px;
@@ -230,7 +230,7 @@ button.btn-36h {
     display: block;
     background-size: 100% 100%;
     height: 78px;
-    width: 35%;
+    width: 235px;
     font-weight: bold;
     font-size: 23px;
     line-height: 86px;
@@ -357,13 +357,15 @@ button.btn-36h {
     z-index: -1;
 }
 .card-block button.btn-card {
-    background: url(../images/card-bg2.png) no-repeat;
+    width: 480px;
+    background: url(../images/card-bg.png) no-repeat;
     background-size: 100% 100%;
     padding: 0 50px;
     color: #018343;
     font-weight: bold;
     font-size: 26px;
-    line-height: 74px;
+    line-height: 138px;
+    height: 118px;
 }
 .home-address {
 	position: relative;
@@ -399,7 +401,8 @@ button.add-info {
     font-weight: bold;
     color: #fff;
     padding: 30px 20px 15px;
-    width: 68%;
+    width: 430px;
+    height: 100px;
 	margin-top: 30px;
 }
 button.add-info a {
@@ -433,17 +436,18 @@ button.add-info a {
     left: -15px;
 }
 .team-btn {
-	background: url(../images/btn-unser.png) no-repeat;
-	background-size: 100% 100%;
+	background: #97E66F;
+	border-radius: 5px 48px 48px 48px;
 	color: #018343;
 	font-size: 18px;
-	line-height: 30px;
-	font-weight: bold;
-	margin-top: 1.5em;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 1.5em;
     margin-bottom: 1em;
     display: inline-block;
     padding: 15px;
-    width: 85%;
+    width: 242px;
+    height: 70px;
 }
 .unser-card h5.card-title {
     font-weight: bold;

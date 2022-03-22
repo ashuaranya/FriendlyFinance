@@ -137,9 +137,10 @@
 		line-height: 27px;
 	}
 	.card-block button.btn-card {
-		padding: 0 75px;
+		padding: 5px 25px;
 		font-size: 18px;
-		line-height: 27px;
+		line-height: 76px;
+		width: 343px;
 		height: 76px;
 	}
 	.content-add {
@@ -193,9 +194,10 @@
 	}
 	.team-btn {
 		font-size: 14px;
-		line-height: 21px;
+		line-height: 18px;
 		padding: 12px;
-		width: 95%;
+		width: 154px;
+		height: 45px;
 	}
 	.unser-team {
 		width: 100%;
@@ -226,10 +228,10 @@
 		margin-bottom: 5px;
 	}
 	.footer-section {
-		padding: 30px 40px 25px;
+		padding: 30px 32px 25px;
 	}
 	.footer-section span.social-icon {
-		width: 72%;
+		width: 128px;
 		height: 30px;
 		font-size: 11px;
 		line-height: 28px;
@@ -238,10 +240,13 @@
 		width: auto;
 	}
 	.footer-section span.social-icon img {
-		width: 13px;
-		height: 13px;
+		width: 14.5px;
+		height: 14.5px;
 		margin-right: 8px;
 		vertical-align: -3px;
+	}
+	.footer-social-menu{
+		padding: 3px;
 	}
 	.footer-social-menu li.footer-social-item {
 		font-size: 11px;
@@ -728,8 +733,9 @@
 	.card-block button.btn-card {
 		padding: 0px 32px;
 		font-size: 12px;
-		line-height: 18px;
-		height: 41px;
+		line-height: 55px;
+		height: 50px;
+		width: 199px;
 	}
 	.card-button > img {
 		width: 100%;
@@ -762,6 +768,7 @@
 		color: #fff;
 		padding: 5px 5px 12px;
 		width: 148px;
+		height: 41px;
 		margin-top: 0;
 	}
 	button.add-info a {
@@ -830,9 +837,10 @@
 	}
 	.team-btn {
 		font-size: 14px;
-		line-height: 21px;
+		line-height: 18px;
 		padding: 12px;
-		width: 95%;
+		width: 154px;
+		height: 45px;
 	}
 	.unser-team-mobile h2 {
 		color: #4A4A4A;
