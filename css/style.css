@@ -29,6 +29,10 @@ button {
 .container-finance{
 	padding: 15px 3em;
 }
+.section-logo img {
+    width: 207px;
+    height: 55px;
+}
 .header-section {
 	padding: 5px 0;
 	position: relative;
@@ -90,6 +94,7 @@ nav.menu-finance {
 }
 .menu-dropdown ul.dropdown-menu li a {
 	color: #018343;
+	padding: 8px 15px;
 }
 
 button.navbar-toggle {
@@ -491,8 +496,8 @@ button.add-info a {
 .page-content p,
 .page-content li {
     font-weight: 500;
-    font-size: 21px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 32px;
     color: #FFFFFF;
 	margin-bottom: 0;
 }
@@ -602,11 +607,11 @@ button.accordion-button[aria-expanded="true"]:after{
    background: url(../images/plus.png) no-repeat;
    background-size: 100% 100%;
 	content: '';
-	width: 28px;
-    height: 28px;
+	width: 24px;
+    height: 24px;
     display: inline-block;
 	position: absolute;
-    left: 16px;
+    left: 18px;
 }
 .accordion-body ul {
     padding: 10px 10px 10px 6em;
@@ -618,8 +623,8 @@ button.accordion-button[aria-expanded="true"]:after{
 }
 .accordion-body li,
 .accordion-body h5 {
-    font-size: 20px;
-    line-height: 37px;
+    font-size: 18px;
+    line-height: 36px;
     color: #4A4A4A;
 }
 div#accList {
@@ -794,7 +799,6 @@ button.btn-modern {
 .block-quotes{position: relative;}
 .block-quotes:before,
 .block-quotes:after {
-	background-size: 100% 100%;
 	content: '';
 	width: 130px;
     height: 130px;
@@ -804,11 +808,13 @@ button.btn-modern {
 }
 .block-quotes:before {
 	background: url(../images/quote-before.png) no-repeat;
+	background-size: 100% 100%;
     left: 8.7em;
     top: 6em;
 }
 .block-quotes:after {
 	background: url(../images/quote-after.png) no-repeat;
+	background-size: 100% 100%;
     top: -40px;
     right: 8.1em;
 }
@@ -976,15 +982,19 @@ button.btn-kontakt {
 button.btn-uber {
 	background: url(../images/btn-termin.png) no-repeat;
     background-size: 100% 100%;
+	height: 118px;
     color: #97E66F;
     margin-right: 2em;
     padding: 45px 2.5em 25px;
 }
 button.btn-kontakt {
-	background: url(../images/btn-kontakt-bg2.png) no-repeat;
+	width: 325px;
+	height: 118px;
+	background: url(../images/btn-kontakt-bg.png) no-repeat;
     background-size: 100% 100%;
     color: #FFFFFF;
-	padding: 22px 3em 25px;
+	padding: 15px;
+	line-height: 110px;
 }
 .kontakt-button {
 	display: inline-block;
@@ -1000,28 +1010,31 @@ button.btn-kontakt {
 }
 .sub-detail:before {
     content: '';
-    background-size: 100% 100%;
     display: inline-block;
 	vertical-align: text-bottom;
     margin-right: 25px;
 }
 .birth-date.sub-detail:before {
     background: url(../images/icon-birthday.png) no-repeat;
+	background-size: 100% 100%;
     width: 25px;
     height: 30px;
 }
 .education.sub-detail:before {
     background: url(../images/icon-edu.png) no-repeat;
+	background-size: 100% 100%;
     width: 30px;
     height: 24px;
 }
 .people-no.sub-detail:before {
     background: url(../images/icon-people.png) no-repeat;
+	background-size: 100% 100%;
     width: 30px;
     height: 20px;
 }
 .occupation.sub-detail:before {
     background: url(../images/icon-occupation.png) no-repeat;
+	background-size: 100% 100%;
     width: 25px;
     height: 23px;
 	position: absolute;

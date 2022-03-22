@@ -8,7 +8,8 @@
 		position: absolute;
 	}
 	.section-logo img {
-		width: 100%;
+		width: 103px;
+		height: 27px;
 	}
 	.header-section > div {
 		padding: 0 7px;
@@ -569,7 +570,11 @@
 		display: none;
 	}
 	button.btn-kontakt {
-		background: url(../images/btn-kontakt.png) no-repeat;
+		background: url(../images/btn-kontakt-tab.png) no-repeat;
+		background-size: 100% 100%;
+		width: 200px;
+		height: 66px;
+		line-height: 50px;
 	}
 	.uber-details-full {
 		margin-bottom: 1.8em;
@@ -604,7 +609,8 @@
 		padding: 15px 1em 0;
 	}
 	.section-logo img {
-		width: 100%;
+		width: 90px;
+		height: 24px;
 	}
 	nav.menu-finance {
 		display: inline-block;
@@ -1197,6 +1203,7 @@
 		display: inline-block;
 		padding-left: 35px;
 	}
+	.education.sub-detail span {padding-left: 35px;}
 	.single-uber-content p {
 		font-size: 10px;
 		line-height: 15px;
