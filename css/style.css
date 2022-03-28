@@ -170,60 +170,7 @@ button.navbar-toggle {
   overflow: hidden;
   position: relative;
 }
-.txt-scroller::before {
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 65%;
-    content: '';
-    height: 1px;
-    position: absolute;
-    background: linear-gradient(180deg, rgba(255, 142, 113, 0), #f5f5f5);
-}
-.txt-scroller::after {
-	left: 0;
-	bottom: 0;
-	z-index: 1;
-	width: 65%;
-    content: '';
-    height: 3px;
-    position: absolute;
-    background: linear-gradient(180deg, rgba(255, 142, 113, 0), #f5f5f5);
-}
-
-.txt-scroller ul {
-  margin: 0;
-  padding: 0;
-  -webkit-animation: scrollUp 10s linear infinite;
-          animation: scrollUp 10s linear infinite;
-}
-.txt-scroller ul li {
-  opacity: 1;
-  padding: 10px 0;
-  list-style: none;
-}
-
-@-webkit-keyframes scrollUp {
-  from {
-    -webkit-transform: translateY(1%);
-            transform: translateY(1%);
-  }
-  to {
-    -webkit-transform: translateY(-90%);
-            transform: translateY(-90%);
-  }
-}
-
-@keyframes scrollUp {
-  from {
-    -webkit-transform: translateY(1%);
-            transform: translateY(1%);
-  }
-  to {
-    -webkit-transform: translateY(-90%);
-            transform: translateY(-90%);
-  }
-}
+.txt-scroller ul {padding: 0;}
 
 .section-home {
     position: relative;
