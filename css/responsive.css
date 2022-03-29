@@ -543,6 +543,21 @@
 		width: 202px;
 		height: 274px;
 	}
+	.manfred-img-full {
+		margin-right: 3.5em;
+	}
+	.border-manfred,
+	.uber-details-full .manfred-img-full img {
+		width: 202px;
+		height: 274px;
+		object-fit: cover;
+		border-radius: 10px 90px 10px 10px;
+	}
+	.border-manfred {		
+		border: 2px solid #018343;
+		top: -10px;
+		left: 12px;
+	}
 	.uber-details {
 		margin-top: -12px;
 	}
@@ -576,6 +591,23 @@
 	}
 	.uber-details-full {
 		margin-bottom: 1.8em;
+	}
+	.kontakt-button {
+		padding-left: 15px;
+	}
+	button.btn-uber {
+		margin-right: 1em;
+	}
+	.container-page-content .social-icon {
+		margin-left: 10px;
+		vertical-align: 8px;
+	}
+	.container-page-content .social-icon img {
+		margin-left: 5px;
+	}
+	.unser-card img {
+		height: 264px;
+		border-radius: 10px 90px 10px 10px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -837,7 +869,8 @@
 		top: 10px;
 		left: -12px;
 		height: 264px;
-		width: auto;
+		width: 191px;
+		border-radius: 10px 90px 10px 10px;
 	}
 	.team-btn {
 		font-size: 14px;
@@ -1216,7 +1249,19 @@
 	button.btn-uber {
 		margin-right: 2em;
 		padding: 15px 2em 10px;
-		margin-bottom: 2em;
+		margin-bottom: 1.5em;
+	}
+	.container-page-content .social-icon img {
+		width: 22%;
+		margin-left: 0;
+		margin-top: 20px;
+		margin-right: 8px;
+	}
+	.container-page-content .social-icon {
+		width: 78%;
+		margin-left: 0;
+		vertical-align: unset;
+		text-align: center;
 	}
 	.kontakt-button {
 		padding-left: 0;
@@ -1272,6 +1317,23 @@
 	.modern-content-full {
 		padding: 2em 1em 2em 3em;
 		left: 12px;
+	}
+	.manfred-img-full{margin-right: 0;}
+	
+	.border-manfred,
+	.uber-details-full .manfred-img-full img {
+		width: 202px;
+		height: 270px;
+		margin: 0 auto;
+		display: block;
+		border-radius: 10px 90px 10px 10px;
+	}
+	.border-manfred {
+		top: -12px;
+		left: 14px;
+	}
+	.uber-details-full .manfred-img-full img {
+		right: 0;
 	}
 }
 @media screen and (max-width: 319px) {

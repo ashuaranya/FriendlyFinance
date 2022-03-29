@@ -383,6 +383,9 @@ button.add-info a {
 	text-align: center;
 }
 .unser-card img {
+	height: 414px;
+    border-radius: 10px 150px 10px 10px;
+    object-fit: cover;
     position: relative;
     top: 15px;
     left: -15px;
@@ -885,9 +888,34 @@ button.btn-modern {
 div#andre {
     margin-bottom: 1em;
 }
-.uber-details-full > img {
+.uber-details-full img {
 	height: 430px;
     margin-right: 4em;
+}
+.uber-details-full .manfred-img-full img {
+    border-radius: 10px 150px 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 414px;
+    width: 300px;
+	object-fit: cover;
+}
+.manfred-img-full {
+    position: relative;
+	margin-right: 5.2em;
+}
+.border-manfred {
+    border: 3px solid #018343;
+    box-sizing: border-box;
+    border-radius: 10px 150px 10px 10px;
+    display: inline-block;
+    height: 414px;
+    width: 300px;
+    position: relative;
+    top: -16px;
+    left: 18px;
+	object-fit: cover;
 }
 .uber-details {
 	width: 100%;
@@ -931,8 +959,18 @@ button.btn-uber {
     background-size: 100% 100%;
 	height: 118px;
     color: #97E66F;
-    margin-right: 2em;
+    margin-right: 1.5em;
     padding: 45px 2.5em 25px;
+}
+.container-page-content .social-icon {
+    display: inline-block;
+    width: 19%;
+    margin-left: 15px;
+    vertical-align: 12px;
+}
+.container-page-content .social-icon img {
+    width: 44%;
+    margin-left: 10px;
 }
 button.btn-kontakt {
 	width: 325px;
