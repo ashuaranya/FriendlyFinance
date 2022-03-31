@@ -534,6 +534,14 @@
 		height: 20px;
 		top: 4px;
 	}
+	.sub-detail.icon-email:before {
+		width: 27px;
+		height: 27px;
+	}
+	.sub-detail.icon-phone:before {
+		width: 27px;
+		height: 27px;
+	}
 	.sub-detail span {
 		padding-left: 43px;
 		line-height: 26px;
@@ -598,12 +606,10 @@
 	button.btn-uber {
 		margin-right: 1em;
 	}
-	.container-page-content .social-icon {
-		margin-left: 10px;
-		vertical-align: 8px;
-	}
 	.container-page-content .social-icon img {
+		width: 40px;
 		margin-left: 5px;
+		height: 40px;
 	}
 	.unser-card img {
 		height: 264px;
@@ -1229,6 +1235,16 @@
 		height: 17px;
 		top: 4px;
 	}
+	.sub-detail.icon-email:before {
+		width: 23px;
+		height: 23px;
+		vertical-align: -9px;
+	}
+	.sub-detail.icon-phone:before {
+		width: 23px;
+		height: 25px;
+		vertical-align: -9px;
+	}
 	.sub-detail span {
 		width: 100%;
 		display: inline-block;
@@ -1252,15 +1268,9 @@
 		margin-bottom: 1.5em;
 	}
 	.container-page-content .social-icon img {
-		width: 22%;
-		margin-left: 0;
-		margin-top: 20px;
-		margin-right: 8px;
-	}
-	.container-page-content .social-icon {
-		width: 78%;
-		margin-left: 0;
-		vertical-align: unset;
+		width: 40px;
+		height: 40px;
+		margin-left: 5px;
 	}
 	.kontakt-button {
 		padding-left: 0;
