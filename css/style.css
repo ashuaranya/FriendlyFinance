@@ -20,6 +20,9 @@ h1,h2 {
 button {
 	border-style: none;
 }
+.header-section .menu-finance .nav-link:hover {
+    color: #018343;
+}
 .dropdown-item.active, 
 .dropdown-item:active {
     color: #018343;
