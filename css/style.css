@@ -46,7 +46,10 @@ button {
 }
 nav.menu-finance {
     display: inline-block;
-    width: 89%;
+    width: 70%;
+}
+.col-menu {
+    text-align: right;
 }
 .header-section .menu-finance .nav-link {
 	font-family: 'Poppins', sans-serif;
